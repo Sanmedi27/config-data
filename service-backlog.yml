@@ -19,5 +19,4 @@ spring:
     database-platform: org.hibernate.dialect.H2Dialect
 eureka:
   client:
-    serviceUrl: 
-      defaultZone: https://pds-taaller-eureka.herokuapp.com/
+    service-url: https://pds-taaller-eureka.herokuapp.com/eureka/
