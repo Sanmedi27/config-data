@@ -1,9 +1,7 @@
 server:
   port: 9000
-eureka:
-  instance:
-    hostname: localhost
+eureka:  
     client:
       registerWithEureka: false
       fetchRegistry: false
-      serviceUrl: http//${eureka.instance.hostname}:${server.port}/eureka/
+      serviceUrl: https://pds-taaller-eureka.herokuapp.com/eureka
