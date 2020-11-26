@@ -17,3 +17,6 @@ spring:
     hibernate:
       ddl-auto: update
     database-platform: org.hibernate.dialect.H2Dialect
+eureka:
+  client:
+    serviceUrl: https://pds-taaller-eureka.herokuapp.com/eureka
