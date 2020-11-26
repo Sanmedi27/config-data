@@ -20,4 +20,4 @@ spring:
 eureka:
   client:
     serviceUrl: 
-      defaultZone: https://pds-taaller-eureka.herokuapp.com/eureka/
+      defaultZone: https://pds-taaller-eureka.herokuapp.com/
