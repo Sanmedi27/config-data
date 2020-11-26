@@ -2,7 +2,7 @@ server:
   port: 9090
 spring:
   application:
-    name: project
+    name: service-project
   h2:
     console:
       enabled: true
