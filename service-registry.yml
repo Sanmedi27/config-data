@@ -1,7 +1,0 @@
-server:
-  port: 9000
-eureka:  
-    client:
-      registerWithEureka: false
-      fetchRegistry: false
-      serviceUrl: https://pds-taaller-eureka.herokuapp.com/eureka
