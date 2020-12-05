@@ -22,4 +22,4 @@ spring:
         - id: projecttask-service
           uri: lb://projecttask-service
           predicates:
-              - Path=/projecttask/**
+              - Path=/task/**
