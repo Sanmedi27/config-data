@@ -2,7 +2,7 @@ server:
   port: 9011
 spring:
   application:
-    name: service-projecttask
+    name: projecttask-service
   h2:
     console:
       enabled: true
@@ -17,3 +17,7 @@ spring:
     hibernate:
       ddl-auto: update
     database-platform: org.hibernate.dialect.H2Dialect
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9000/eureka/
