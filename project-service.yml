@@ -17,6 +17,10 @@ spring:
     hibernate:
       ddl-auto: update
     database-platform: org.hibernate.dialect.H2Dialect
+  boot:
+    admin:
+      client:
+        url: http://localhost:9008
 eureka:
   client:
     serviceUrl:
