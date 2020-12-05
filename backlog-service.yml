@@ -2,7 +2,7 @@ server:
   port: 9010
 spring:
   application:
-    name: service-backlog
+    name: backlog-service
   h2:
     console:
       enabled: true
@@ -19,4 +19,5 @@ spring:
     database-platform: org.hibernate.dialect.H2Dialect
 eureka:
   client:
-    service-url: https://pds-taaller-eureka.herokuapp.com/
+    serviceUrl:
+      defaultZone: http://localhost:9000/eureka/
